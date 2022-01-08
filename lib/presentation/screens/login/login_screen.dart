@@ -5,8 +5,7 @@ import '../../../core/config/assets_path.dart';
 import '../../../core/config/custom_color.dart';
 import '../../../core/config/size_config.dart';
 import '../../widgets/login_clip.dart';
-import '../widgets/body_widget.dart';
-import '../widgets/create_account_widget.dart';
+import '../widgets/body.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -58,8 +57,7 @@ class LoginScreen extends StatelessWidget {
                 height: 70,
               ),
             ),
-            BodyWidget(),
-            CreateAccountWidget(),
+            Body(),
           ],
         ),
       ),

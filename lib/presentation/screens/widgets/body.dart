@@ -8,8 +8,8 @@ import '../../../core/config/label_config.dart';
 import '../../../core/config/size_config.dart';
 import '../../widgets/custom_button.dart';
 
-class BodyWidget extends StatelessWidget {
-  const BodyWidget({
+class Body extends StatelessWidget {
+  const Body({
     Key? key,
   }) : super(key: key);
 
@@ -122,6 +122,19 @@ class BodyWidget extends StatelessWidget {
                 Icon(UniconsLine.twitter),
                 Icon(UniconsLine.facebook_f),
               ],
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Text(
+                "Create an account",
+                style: TextStyle(
+                  color: CustomColor.steelGray,
+                  fontSize: 16,
+                ),
+              ),
             ),
           ],
         ),
