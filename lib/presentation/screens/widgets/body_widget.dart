@@ -23,7 +23,7 @@ class BodyWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SvgPicture.asset(AssetsPath.splashIllustration),
+            SvgPicture.asset(AssetsPath.loginIllustration),
             const SizedBox(
               height: 10,
             ),
@@ -43,7 +43,7 @@ class BodyWidget extends StatelessWidget {
               height: 10,
             ),
             Text(
-              LabelConfig.splashDescription,
+              LabelConfig.loginDescription,
               style: TextStyle(
                 color: CustomColor.waterLoo,
                 fontSize: 14,

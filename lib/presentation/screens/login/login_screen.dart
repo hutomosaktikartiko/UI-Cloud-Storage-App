@@ -4,12 +4,12 @@ import 'package:lottie/lottie.dart';
 import '../../../core/config/assets_path.dart';
 import '../../../core/config/custom_color.dart';
 import '../../../core/config/size_config.dart';
-import '../../widgets/splash_clip.dart';
+import '../../widgets/login_clip.dart';
 import '../widgets/body_widget.dart';
 import '../widgets/create_account_widget.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
         child: Stack(
           children: [
             ClipPath(
-              clipper: SplashClip(),
+              clipper: LoginClip(),
               child: Container(
                 color: CustomColor.solitude,
                 height: SizeConfig.screenHeight * 0.3,

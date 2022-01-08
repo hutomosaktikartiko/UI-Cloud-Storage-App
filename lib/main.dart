@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'presentation/screens/splash/splash_screen.dart';
+import 'presentation/screens/login/login_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Poppins"
       ),
-      home: SplashScreen(),
+      home: LoginScreen(),
     );
   }
 }
