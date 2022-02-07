@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:unicons/unicons.dart';
 
-import '../../../core/config/assets_path.dart';
-import '../../../core/config/custom_color.dart';
-import '../../../core/config/label_config.dart';
-import '../../../core/config/size_config.dart';
-import '../../widgets/custom_button.dart';
+import '../../../../core/config/assets_path.dart';
+import '../../../../core/config/custom_color.dart';
+import '../../../../core/config/label_config.dart';
+import '../../../../core/config/size_config.dart';
+import '../../../widgets/custom_button.dart';
 
 class Body extends StatelessWidget {
   const Body({

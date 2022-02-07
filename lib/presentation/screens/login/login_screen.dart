@@ -5,7 +5,7 @@ import '../../../core/config/assets_path.dart';
 import '../../../core/config/custom_color.dart';
 import '../../../core/config/size_config.dart';
 import '../../widgets/login_clip.dart';
-import '../widgets/body.dart';
+import 'widgets/body.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
